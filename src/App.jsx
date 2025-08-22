@@ -16,7 +16,7 @@ const App = () => {
           className={({ isActive }) =>
             isActive
               ? 'text-brandBlueColor font-extrabold'
-              : 'text-brandBlackColor hover:text-brandBlueColor'
+              : 'text-gray-700 hover:text-brandBlueColor'
           }
           onClick={() => setSidebarOpen(false)}
         >
@@ -29,7 +29,7 @@ const App = () => {
           className={({ isActive }) =>
             isActive
               ? 'text-brandBlueColor font-extrabold'
-              : 'text-brandBlackColor hover:text-brandBlueColor'
+              : 'text-gray-700 hover:text-brandBlueColor'
           }
           onClick={() => setSidebarOpen(false)}
         >
@@ -42,7 +42,7 @@ const App = () => {
           className={({ isActive }) =>
             isActive
               ? 'text-brandBlueColor font-extrabold'
-              : 'text-brandBlackColor hover:text-brandBlueColor'
+              : 'text-gray-700 hover:text-brandBlueColor'
           }
           onClick={() => setSidebarOpen(false)}
         >
@@ -55,7 +55,7 @@ const App = () => {
           className={({ isActive }) =>
             isActive
               ? 'text-brandBlueColor font-extrabold'
-              : 'text-brandBlackColor hover:text-brandBlueColor'
+              : 'text-gray-700 hover:text-brandBlueColor'
           }
           onClick={() => setSidebarOpen(false)}
         >

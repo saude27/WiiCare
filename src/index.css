@@ -9,6 +9,7 @@
 .text-brandBlueColor {
   color: var(--brandBlueColor);
 }
+.hover\:text-brandBlueColor:hover { color: var(--brandBlueColor); }
 
 @theme {
   --brandBrownColor: #732C3E;
@@ -20,14 +21,17 @@
 .text-brandBrownColor {
   color: var(--brandBrownColor);
 }
+.hover\:text-brandBrownColor:hover { color: var(--brandBrownColor); }
 
 @theme {
-  --brandDarkColor: #ECECEC;
+  --brandGrayColor:  #ECECEC;
 }
 
-.bg-brandDarkColor {
-  background-color: var(--brandDarkColor);
+.bg-brandGrayColor {
+  background-color: var(--brandGrayColor);
 }
-.text-brandDarkColor {
-  color: var(--brandDarkColor);
+.text-brandGrayColor {
+  color: var(--brandGrayColor);
 }
+.hover\:text-brandGrayColor:hover { color: var(--brandGrayColor); }
+
