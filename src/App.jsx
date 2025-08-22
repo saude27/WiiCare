@@ -15,8 +15,8 @@ const App = () => {
           to="/"
           className={({ isActive }) =>
             isActive
-              ? 'text-blue-600 font-semibold'
-              : 'text-gray-700 hover:text-blue-500'
+              ? 'text-brandBlueColor font-extrabold'
+              : 'text-brandBlackColor hover:text-brandBlueColor'
           }
           onClick={() => setSidebarOpen(false)}
         >
@@ -28,8 +28,8 @@ const App = () => {
           to="/about"
           className={({ isActive }) =>
             isActive
-              ? 'text-blue-600 font-semibold'
-              : 'text-gray-700 hover:text-blue-500'
+              ? 'text-brandBlueColor font-extrabold'
+              : 'text-brandBlackColor hover:text-brandBlueColor'
           }
           onClick={() => setSidebarOpen(false)}
         >
@@ -41,8 +41,8 @@ const App = () => {
           to="/services"
           className={({ isActive }) =>
             isActive
-              ? 'text-blue-600 font-semibold'
-              : 'text-gray-700 hover:text-blue-500'
+              ? 'text-brandBlueColor font-extrabold'
+              : 'text-brandBlackColor hover:text-brandBlueColor'
           }
           onClick={() => setSidebarOpen(false)}
         >
@@ -54,8 +54,8 @@ const App = () => {
           to="/contact"
           className={({ isActive }) =>
             isActive
-              ? 'text-blue-600 font-semibold'
-              : 'text-gray-700 hover:text-blue-500'
+              ? 'text-brandBlueColor font-extrabold'
+              : 'text-brandBlackColor hover:text-brandBlueColor'
           }
           onClick={() => setSidebarOpen(false)}
         >

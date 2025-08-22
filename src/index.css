@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+@theme {
+  --brandBlueColor: #152C4B;
+}
+.bg-brandBlueColor {
+  background-color: var(--brandBlueColor);
+}
+.text-brandBlueColor {
+  color: var(--brandBlueColor);
+}
+
+@theme {
+  --brandBrownColor: #732C3E;
+}
+
+.bg-brandBrownColor {
+  background-color: var(--brandBrownColor);
+}
+.text-brandBrownColor {
+  color: var(--brandBrownColor);
+}
+
+@theme {
+  --brandDarkColor: #ECECEC;
+}
+
+.bg-brandDarkColor {
+  background-color: var(--brandDarkColor);
+}
+.text-brandDarkColor {
+  color: var(--brandDarkColor);
+}
