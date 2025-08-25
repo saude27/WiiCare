@@ -3,7 +3,7 @@ import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from "lucide-react"
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 pt-12 pb-6">
+    <footer className="bg-brandBlueColor text-white pt-12 pb-6">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Brand Section */}
         <div>
@@ -46,28 +46,28 @@ const Footer = () => {
           <h3 className="text-lg font-semibold text-white mb-4">Get in Touch</h3>
           <ul className="space-y-3 text-sm">
             <li className="flex items-center gap-2">
-              <Phone className="w-4 h-4 text-brandBlueColor" />
+              <Phone className="w-4 h-4 text-white" />
               +234 800 123 4567
             </li>
             <li className="flex items-center gap-2">
-              <Mail className="w-4 h-4 text-brandBlueColor" />
+              <Mail className="w-4 h-4 text-white" />
               info@healthcareplus.com
             </li>
             <li className="flex items-center gap-2">
-              <MapPin className="w-4 h-4 text-brandBlueColor" />
+              <MapPin className="w-4 h-4 text-white" />
               123 Healthcare St, Lagos, Nigeria
             </li>
           </ul>
 
           {/* Social Icons */}
           <div className="flex gap-4 mt-4">
-            <a href="#" className="hover:text-white">
+            <a href="#" className="text-white">
               <Facebook className="w-5 h-5" />
             </a>
-            <a href="#" className="hover:text-white">
+            <a href="#" className="text-white">
               <Twitter className="w-5 h-5" />
             </a>
-            <a href="#" className="hover:text-white">
+            <a href="#" className="text-white">
               <Instagram className="w-5 h-5" />
             </a>
           </div>
@@ -75,8 +75,8 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} HealthCare+. All rights reserved.
+      <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-white">
+        © {new Date().getFullYear()} WiiCare. All rights reserved.
       </div>
     </footer>
   );
