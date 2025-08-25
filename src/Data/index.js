@@ -49,7 +49,25 @@ export const reviews = [
 ];
 
 
-
-
-
-
+export const faqs = [
+  {
+    question: "What services do you provide?",
+    answer:
+      "We provide home care, medical consultation, physiotherapy, and personalized health support to our patients.",
+  },
+  {
+    question: "How can I book an appointment?",
+    answer:
+      "You can book an appointment using our online form on the 'Book Appointment' page or call our support line.",
+  },
+  {
+    question: "Do you offer emergency services?",
+    answer:
+      "Yes, we provide emergency medical support. Please contact us directly through our hotline in urgent cases.",
+  },
+  {
+    question: "Where are you located?",
+    answer:
+      "We are located in [Your Location]. You can find our full address and directions on the Contact Us page.",
+  },
+];

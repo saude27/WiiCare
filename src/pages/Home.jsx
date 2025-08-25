@@ -5,6 +5,9 @@ import AboutPreview from "../components/AboutPreview";
 import ServicePreview from "../components/ServicePreview";
 import ReviewSlider from "../components/ReviewSlider";
 import BookAppointment from "../components/BookApointment";
+import FAQ from "../components/faq";
+import Footer from "../components/Footer";
+
 const Home = () => {
   return (
     <div className="">
@@ -40,6 +43,8 @@ const Home = () => {
       <ServicePreview />
       <ReviewSlider />
       <BookAppointment />
+      <FAQ />
+      <Footer />
     </div>
   );
 };
