@@ -45,6 +45,9 @@ const AboutPreview = () => {
             </span>
           </div>
         </div>
+        <button className="px-6 py-3 bg-brandBlueColor text-white rounded-full shadow-md transition">
+            More About Us
+          </button>
       </div>
     </div>
   );

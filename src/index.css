@@ -9,7 +9,11 @@
 .text-brandBlueColor {
   color: var(--brandBlueColor);
 }
+.border-brandBlueColor {
+  color: var(--brandBlueColor);
+}
 .hover\:text-brandBlueColor:hover { color: var(--brandBlueColor); }
+.hover\:border-brandBlueColor:hover { color: var(--brandBlueColor); }
 
 @theme {
   --brandBlueColor2: #435f8b;
@@ -28,6 +32,7 @@
 .text-brandBrownColor {
   color: var(--brandBrownColor);
 }
+
 .hover\:text-brandBrownColor:hover { color: var(--brandBrownColor); }
 
 @theme {
