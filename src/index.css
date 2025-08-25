@@ -12,6 +12,13 @@
 .hover\:text-brandBlueColor:hover { color: var(--brandBlueColor); }
 
 @theme {
+  --brandBlueColor2: #435f8b;
+}
+.bg-brandBlueColor2 {
+  background-color: var(--brandBlueColor2);
+}
+
+@theme {
   --brandBrownColor: #732C3E;
 }
 
