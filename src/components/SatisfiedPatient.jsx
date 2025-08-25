@@ -45,9 +45,9 @@ const SatisfiedPatient = () => {
 
       {/* Count */}
       <div className="text-left">
-        <h2 className="text-4xl font-bold text-brandBlueColor">
+        <h3 className="text-4xl font-bold text-brandBlueColor">
           {count.toLocaleString()}+
-        </h2>
+        </h3>
         <p className="text-gray-600 font-medium">Satisfied Patients</p>
       </div>
     </div>

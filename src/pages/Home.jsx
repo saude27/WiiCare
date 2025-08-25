@@ -4,6 +4,7 @@ import CardSection from "../components/CardSection";
 import AboutPreview from "../components/AboutPreview";
 import ServicePreview from "../components/ServicePreview";
 import ReviewSlider from "../components/ReviewSlider";
+import BookAppointment from "../components/BookApointment";
 const Home = () => {
   return (
     <div className="">
@@ -38,7 +39,7 @@ const Home = () => {
       <AboutPreview />
       <ServicePreview />
       <ReviewSlider />
-      
+      <BookAppointment />
     </div>
   );
 };
