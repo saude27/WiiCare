@@ -5,7 +5,7 @@ const ServicePreview = () => {
   return (
     <div className="max-w-7xl mx-auto px-6 py-16">
       {/* Section Heading */}
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-brandBlueColor mb-12 w-2xl m-auto">
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-brandBlueColor mb-12 m-auto">
         Exceptional Care for You and Your Loved Ones
       </h2>
 
