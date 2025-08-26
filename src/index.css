@@ -14,7 +14,7 @@
 }
 .hover\:text-brandBlueColor:hover { color: var(--brandBlueColor); }
 .hover\:border-brandBlueColor:hover { color: var(--brandBlueColor); }
-
+.focus\:border-brandBlueColor:hover { color: var(--brandBlueColor); }
 @theme {
   --brandBlueColor2: #435f8b;
 }
